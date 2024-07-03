@@ -10,5 +10,5 @@ WORKDIR /home/Kazuuserbot/
 RUN pip3 install -U pip
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -U -r requirements.txt
-
+py-tgcalls==0.9.7
 CMD ["bash","start"]
